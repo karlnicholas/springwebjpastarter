@@ -1,3 +1,4 @@
+package webstarter;
 /*
  * Copyright 2012-2013 the original author or authors.
  *
@@ -14,12 +15,9 @@
  * limitations under the License.
  */
 
-package springweb;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 /**

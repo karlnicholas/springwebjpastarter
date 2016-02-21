@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package springweb.jsp;
+package webstarter.jsp;
 
 import java.util.Map;
 
@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import springweb.service.UserService;
+import webstarter.service.UserService;
 
 /**
  * Simple Web/JSP controller. Maps to root context ( "/" ) and

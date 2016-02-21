@@ -1,4 +1,4 @@
-package springweb.domain;
+package webstarter.domain;
 
 import java.io.Serializable;
 

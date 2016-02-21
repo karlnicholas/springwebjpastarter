@@ -1,6 +1,6 @@
-package springweb.service;
+package webstarter.service;
 
-import springweb.domain.User;
+import webstarter.domain.User;
 
 public interface UserService {
 

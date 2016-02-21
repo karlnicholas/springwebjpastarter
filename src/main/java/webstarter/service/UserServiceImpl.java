@@ -1,12 +1,21 @@
-package springweb.service;
+package webstarter.service;
 
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import springweb.domain.User;
+import webstarter.domain.User;
 
+/**
+ * Implementation of the UserService interface that gets
+ * Autowired into spring managed classes, e.g., WelcomeController & UserController.
+ * 
+ *  Business logic service layer.
+ * 
+ * @author karl
+ *
+ */
 @Transactional
 @Component(value = "userService")
 public class UserServiceImpl implements UserService {

@@ -3,13 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>n</groupId>
-  <artifactId>springweb</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <artifactId>springwebjpastarter</artifactId>
+  <version>0.0.1</version>
+  <packaging>war</packaging>
 
-  <name>springweb</name>
-  <description>Demo project for Spring Boot</description>
+  <name>springwebjpastarter</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -20,7 +18,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>1.8</java.version>
+    <java.version>1.7</java.version>
     <m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
   </properties>
 
@@ -70,4 +68,7 @@
     </plugins>
   </build>
 
+  <groupId>com.github.karlnicholas</groupId>
+  <description>Simple Spring Boot Web JPA Starter Application.</description>
+  <url>https://github.com/karlnicholas/springwebjpastarter</url>
 </project>
