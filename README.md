@@ -10,15 +10,15 @@ Simple Spring Boot Web JPA Starter Application.
 
 **Requires Java 1.7 or later.**
 
-**To use from releases:** 
-* Download the war directly from the [releases](https://github.com/karlnicholas/springwebjpastarter/releases) directory. 
-* run the application `java -jar springwebjpastarter-0.0.1.war`
-* open web browser to `http://localhost:8080`
-
-**To build :** 
+**To copy, build and run:** 
 * clone the repository `git clone https://github.com/karlnicholas/springwebjpastarter.git`
 * build the jar `mvn package` 
 * run the application with `mvn spring-boot:run`
+* open web browser to `http://localhost:8080`
+
+**To use directly from releases on GitHub:** 
+* Download the war directly from the [releases](https://github.com/karlnicholas/springwebjpastarter/releases) directory. 
+* run the application `java -jar springwebjpastarter-0.0.1.war`
 * open web browser to `http://localhost:8080`
 
 **Rest Service API**
